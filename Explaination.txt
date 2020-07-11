@@ -1,0 +1,30 @@
+Alex is a Computer science student, he alotted a job in intern, that he want to find the given IP is IPv4 or IPv6
+Create a algorithm for finding the address.
+
+Sample input:
+172.16.254.1
+
+Sample output:
+IPv4
+
+Explantion:
+The IPv4 addresses are canonically represented in dotted-decimal notation, which consists of four decimal numbers, each ranging from 0 to 255, separated by dots (".")
+so the given is IPv4
+
+Sample Input:
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+Sample output:
+IPv6
+
+Explantion:
+The IPv6 addresses are canonically represented in ':' notation.
+So the given is IPv6
+
+Sample input:
+192.168.254.01
+
+Sample output:
+-1
+
+The given IP address is neither IPv4 or IPv6 so printing the output as -1.
